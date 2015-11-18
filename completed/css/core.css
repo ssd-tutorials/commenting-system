@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+body {
+	text-align: center;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 12px;
+	padding: 30px 0;
+	line-height: 18px;
+}
+body,a {
+	color: #333;
+}
+p {
+	padding-bottom: 10px;
+}
+#wrapper {
+	width: 300px;
+	margin: 0 auto;
+	text-align: left;
+}
+#comments,.comment,.tblInsert {
+	width: 100%;
+	float: left;
+}
+.field,.area {
+	border: solid 1px #aaa;
+	padding: 3px;
+	width: 292px;
+}
+.area {
+	height: 100px;
+}
+.name {
+	font-size: 11px;
+	color: #999;
+	font-style: italic;
+	display: block;
+	padding-bottom: 7px;
+}
+.comment {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: dashed 1px #aaa;
+}
+.comment p {
+	padding: 0;
+}
+.tblInsert {
+	margin-bottom: 16px;
+}
+.button {
+	display: block;
+	float: left;
+	padding: 4px 10px 3px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background: url(/images/button.png) repeat-x 0 0 #333;
+	border: solid 1px #010101;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.button:hover {
+	background-image: none;
+}
+.flr {
+	float: right;
+}
